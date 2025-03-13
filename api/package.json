@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Veggie-Might Web API w/ PostgreSQL integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-cors": "^6.1.0",
+    "fastify-swagger": "^5.2.0",
+    "fastify-auth": "^1.2.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-cookie": "^5.7.0",
+    "google-auth-library": "^8.9.0",
+    "pg": "^8.11.3",
+    "nodemon": "^3.0.1"
+  }
+}
